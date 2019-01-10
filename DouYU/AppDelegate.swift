@@ -17,7 +17,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        let root = JTabBarController()
+        self.window?.rootViewController = root
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        if let cookieArray = UserDefaults.standard.array(forKey: J_DOUYU_TOKEN) {
+            for cookieData in cookieArray {
+                if let dict = cookieData as? [HTTPCookiePropertyKey : Any] {
+                    if let cookie = HTTPCookie.init(properties: dict) {
+                        HTTPCookieStorage.shared.setCookie(cookie)
+                    }
+                }
+            }
+        }
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
+    }
+    
+    func getDouYuConfig() {
+        JNetWorking .requestData(type: .GET, URlString: ZJDouYuConfig, parameters: nil) { (response) in
+            
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

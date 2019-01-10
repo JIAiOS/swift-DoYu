@@ -7,15 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5887ECC538B8FFE7977E691D /* Pods_DouYU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4616E005D9340938429B41 /* Pods_DouYU.framework */; };
 		D85942C921E5C4C8002A4CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942C821E5C4C8002A4CA8 /* AppDelegate.swift */; };
 		D85942CB21E5C4C8002A4CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942CA21E5C4C8002A4CA8 /* ViewController.swift */; };
 		D85942CE21E5C4C8002A4CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85942CC21E5C4C8002A4CA8 /* Main.storyboard */; };
 		D85942D121E5C4C8002A4CA8 /* DouYU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D85942CF21E5C4C8002A4CA8 /* DouYU.xcdatamodeld */; };
 		D85942D321E5C4C9002A4CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85942D221E5C4C9002A4CA8 /* Assets.xcassets */; };
 		D85942D621E5C4CA002A4CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85942D421E5C4CA002A4CA8 /* LaunchScreen.storyboard */; };
+		D85942E021E5D2D3002A4CA8 /* JColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942DF21E5D2D3002A4CA8 /* JColor.swift */; };
+		D85942FC21E5D9BD002A4CA8 /* JFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942FB21E5D9BD002A4CA8 /* JFont.swift */; };
+		D85942FE21E5DA21002A4CA8 /* JCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942FD21E5DA21002A4CA8 /* JCommon.swift */; };
+		D859430021E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85942FF21E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift */; };
+		D859430221E5E2F0002A4CA8 /* JDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430121E5E2F0002A4CA8 /* JDateExtension.swift */; };
+		D859430521E5E33C002A4CA8 /* JProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430421E5E33C002A4CA8 /* JProgressHUD.swift */; };
+		D859430721E5E40C002A4CA8 /* SwiftProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430621E5E40C002A4CA8 /* SwiftProgressHUD.swift */; };
+		D859430C21E5E503002A4CA8 /* JBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430B21E5E503002A4CA8 /* JBarButtonItem_Extension.swift */; };
+		D859430E21E5E556002A4CA8 /* JView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430D21E5E556002A4CA8 /* JView_Extension.swift */; };
+		D859431021E5E648002A4CA8 /* JDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859430F21E5E648002A4CA8 /* JDecoder.swift */; };
+		D859431221E5E6B1002A4CA8 /* JImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431121E5E6B1002A4CA8 /* JImageView+Kingfisher.swift */; };
+		D859431521E5E76C002A4CA8 /* JHomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431421E5E76C002A4CA8 /* JHomeAPI.swift */; };
+		D859431721E5E81A002A4CA8 /* JNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431621E5E81A002A4CA8 /* JNetWorking.swift */; };
+		D859431921E5E8AF002A4CA8 /* JInterfaceUR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431821E5E8AF002A4CA8 /* JInterfaceUR.swift */; };
+		D859431B21E5E8F0002A4CA8 /* JNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431A21E5E8F0002A4CA8 /* JNetworkProvider.swift */; };
+		D859432021E5E9B7002A4CA8 /* JTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859431F21E5E9B7002A4CA8 /* JTabBarController.swift */; };
+		D859432221E5EBD7002A4CA8 /* JNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432121E5EBD7002A4CA8 /* JNavigationController.swift */; };
+		D859432421E5ECB1002A4CA8 /* JBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432321E5ECB1002A4CA8 /* JBaseViewController.swift */; };
+		D859433621E5ED0D002A4CA8 /* ZJCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432721E5ED0D002A4CA8 /* ZJCarouselView.swift */; };
+		D859433721E5ED0D002A4CA8 /* ZJCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432821E5ED0D002A4CA8 /* ZJCarouselCell.swift */; };
+		D859433821E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432921E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift */; };
+		D859433921E5ED0D002A4CA8 /* ZJImagePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432A21E5ED0D002A4CA8 /* ZJImagePageControl.swift */; };
+		D859433A21E5ED0D002A4CA8 /* ZJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432C21E5ED0D002A4CA8 /* ZJPageTitleView.swift */; };
+		D859433B21E5ED0D002A4CA8 /* ZJPageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432D21E5ED0D002A4CA8 /* ZJPageOptions.swift */; };
+		D859433C21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432E21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift */; };
+		D859433D21E5ED0D002A4CA8 /* ZJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859432F21E5ED0D002A4CA8 /* ZJPageContentView.swift */; };
+		D859433E21E5ED0D002A4CA8 /* ZJCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859433121E5ED0D002A4CA8 /* ZJCustomView.swift */; };
+		D859433F21E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859433221E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift */; };
+		D859434021E5ED0D002A4CA8 /* ZJPopupBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859433321E5ED0D002A4CA8 /* ZJPopupBaseView.swift */; };
+		D859434121E5ED0D002A4CA8 /* ZJPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859433421E5ED0D002A4CA8 /* ZJPopupView.swift */; };
+		D859434221E5ED0D002A4CA8 /* ZJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859433521E5ED0D002A4CA8 /* ZJAlertController.swift */; };
+		D859434821E5F012002A4CA8 /* JHomeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859434721E5F012002A4CA8 /* JHomeSearchView.swift */; };
+		D859434B21E5F06D002A4CA8 /* JProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859434A21E5F06D002A4CA8 /* JProfileViewController.swift */; };
+		D859434D21E5F0EF002A4CA8 /* JHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859434C21E5F0EF002A4CA8 /* JHomeViewController.swift */; };
+		D859435021E5F115002A4CA8 /* JRecreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859434F21E5F115002A4CA8 /* JRecreationViewController.swift */; };
+		D859435321E5F131002A4CA8 /* JFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435221E5F131002A4CA8 /* JFollowViewController.swift */; };
+		D859435621E5F14F002A4CA8 /* JFishBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435521E5F14F002A4CA8 /* JFishBarViewController.swift */; };
+		D859435921E5F164002A4CA8 /* JDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435821E5F164002A4CA8 /* JDiscoverViewController.swift */; };
+		D859435C21E5F2BE002A4CA8 /* JBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435B21E5F2BE002A4CA8 /* JBaseCollectionCell.swift */; };
+		D859435E21E5F449002A4CA8 /* JBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435D21E5F449002A4CA8 /* JBaseTableCell.swift */; };
+		D859436021E5F6A0002A4CA8 /* JBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435F21E5F6A0002A4CA8 /* JBaseView.swift */; };
+		D859436221E5F734002A4CA8 /* JNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859436121E5F734002A4CA8 /* JNavigationBar.swift */; };
+		D859436421E5F820002A4CA8 /* JRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859436321E5F820002A4CA8 /* JRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22E44473FD5BB57CBD950C96 /* Pods-DouYU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYU/Pods-DouYU.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F95257F931579E05F59ED3 /* Pods-DouYU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYU.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYU/Pods-DouYU.release.xcconfig"; sourceTree = "<group>"; };
 		D85942C521E5C4C8002A4CA8 /* DouYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85942C821E5C4C8002A4CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D85942CA21E5C4C8002A4CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +70,50 @@
 		D85942D221E5C4C9002A4CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D85942D521E5C4CA002A4CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D85942D721E5C4CA002A4CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85942DF21E5D2D3002A4CA8 /* JColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JColor.swift; sourceTree = "<group>"; };
+		D85942FB21E5D9BD002A4CA8 /* JFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFont.swift; sourceTree = "<group>"; };
+		D85942FD21E5DA21002A4CA8 /* JCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCommon.swift; sourceTree = "<group>"; };
+		D85942FF21E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNotiRefreshHomeNavBar.swift; sourceTree = "<group>"; };
+		D859430121E5E2F0002A4CA8 /* JDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDateExtension.swift; sourceTree = "<group>"; };
+		D859430421E5E33C002A4CA8 /* JProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JProgressHUD.swift; sourceTree = "<group>"; };
+		D859430621E5E40C002A4CA8 /* SwiftProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftProgressHUD.swift; sourceTree = "<group>"; };
+		D859430B21E5E503002A4CA8 /* JBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarButtonItem_Extension.swift; sourceTree = "<group>"; };
+		D859430D21E5E556002A4CA8 /* JView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JView_Extension.swift; sourceTree = "<group>"; };
+		D859430F21E5E648002A4CA8 /* JDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDecoder.swift; sourceTree = "<group>"; };
+		D859431121E5E6B1002A4CA8 /* JImageView+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		D859431421E5E76C002A4CA8 /* JHomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHomeAPI.swift; sourceTree = "<group>"; };
+		D859431621E5E81A002A4CA8 /* JNetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNetWorking.swift; sourceTree = "<group>"; };
+		D859431821E5E8AF002A4CA8 /* JInterfaceUR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JInterfaceUR.swift; sourceTree = "<group>"; };
+		D859431A21E5E8F0002A4CA8 /* JNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNetworkProvider.swift; sourceTree = "<group>"; };
+		D859431F21E5E9B7002A4CA8 /* JTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTabBarController.swift; sourceTree = "<group>"; };
+		D859432121E5EBD7002A4CA8 /* JNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNavigationController.swift; sourceTree = "<group>"; };
+		D859432321E5ECB1002A4CA8 /* JBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseViewController.swift; sourceTree = "<group>"; };
+		D859432721E5ED0D002A4CA8 /* ZJCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCarouselView.swift; sourceTree = "<group>"; };
+		D859432821E5ED0D002A4CA8 /* ZJCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCarouselCell.swift; sourceTree = "<group>"; };
+		D859432921E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBaseCarouselCell.swift; sourceTree = "<group>"; };
+		D859432A21E5ED0D002A4CA8 /* ZJImagePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJImagePageControl.swift; sourceTree = "<group>"; };
+		D859432C21E5ED0D002A4CA8 /* ZJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageTitleView.swift; sourceTree = "<group>"; };
+		D859432D21E5ED0D002A4CA8 /* ZJPageOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageOptions.swift; sourceTree = "<group>"; };
+		D859432E21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBasePageControlCell.swift; sourceTree = "<group>"; };
+		D859432F21E5ED0D002A4CA8 /* ZJPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageContentView.swift; sourceTree = "<group>"; };
+		D859433121E5ED0D002A4CA8 /* ZJCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCustomView.swift; sourceTree = "<group>"; };
+		D859433221E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupViewDelegate.swift; sourceTree = "<group>"; };
+		D859433321E5ED0D002A4CA8 /* ZJPopupBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupBaseView.swift; sourceTree = "<group>"; };
+		D859433421E5ED0D002A4CA8 /* ZJPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupView.swift; sourceTree = "<group>"; };
+		D859433521E5ED0D002A4CA8 /* ZJAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJAlertController.swift; sourceTree = "<group>"; };
+		D859434721E5F012002A4CA8 /* JHomeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHomeSearchView.swift; sourceTree = "<group>"; };
+		D859434A21E5F06D002A4CA8 /* JProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JProfileViewController.swift; sourceTree = "<group>"; };
+		D859434C21E5F0EF002A4CA8 /* JHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHomeViewController.swift; sourceTree = "<group>"; };
+		D859434F21E5F115002A4CA8 /* JRecreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRecreationViewController.swift; sourceTree = "<group>"; };
+		D859435221E5F131002A4CA8 /* JFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFollowViewController.swift; sourceTree = "<group>"; };
+		D859435521E5F14F002A4CA8 /* JFishBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFishBarViewController.swift; sourceTree = "<group>"; };
+		D859435821E5F164002A4CA8 /* JDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDiscoverViewController.swift; sourceTree = "<group>"; };
+		D859435B21E5F2BE002A4CA8 /* JBaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseCollectionCell.swift; sourceTree = "<group>"; };
+		D859435D21E5F449002A4CA8 /* JBaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseTableCell.swift; sourceTree = "<group>"; };
+		D859435F21E5F6A0002A4CA8 /* JBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseView.swift; sourceTree = "<group>"; };
+		D859436121E5F734002A4CA8 /* JNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNavigationBar.swift; sourceTree = "<group>"; };
+		D859436321E5F820002A4CA8 /* JRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRefreshView.swift; sourceTree = "<group>"; };
+		FC4616E005D9340938429B41 /* Pods_DouYU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +121,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5887ECC538B8FFE7977E691D /* Pods_DouYU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FC68C7A161C2EEAE1AAA68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4616E005D9340938429B41 /* Pods_DouYU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB1C49B8926EE4D51D0FE20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E44473FD5BB57CBD950C96 /* Pods-DouYU.debug.xcconfig */,
+				D6F95257F931579E05F59ED3 /* Pods-DouYU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D85942BC21E5C4C8002A4CA8 = {
 			isa = PBXGroup;
 			children = (
 				D85942C721E5C4C8002A4CA8 /* DouYU */,
 				D85942C621E5C4C8002A4CA8 /* Products */,
+				8CB1C49B8926EE4D51D0FE20 /* Pods */,
+				5FC68C7A161C2EEAE1AAA68C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +166,10 @@
 		D85942C721E5C4C8002A4CA8 /* DouYU */ = {
 			isa = PBXGroup;
 			children = (
+				D859432521E5ED0D002A4CA8 /* ZJCustomView */,
+				D859431C21E5E976002A4CA8 /* Classes */,
+				D859431321E5E743002A4CA8 /* Network */,
+				D85942DD21E5D27C002A4CA8 /* Tools */,
 				D85942C821E5C4C8002A4CA8 /* AppDelegate.swift */,
 				D85942CA21E5C4C8002A4CA8 /* ViewController.swift */,
 				D85942CC21E5C4C8002A4CA8 /* Main.storyboard */,
@@ -67,6 +181,213 @@
 			path = DouYU;
 			sourceTree = "<group>";
 		};
+		D85942DD21E5D27C002A4CA8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D859430321E5E30B002A4CA8 /* Extension */,
+				D85942DE21E5D29B002A4CA8 /* Marco */,
+				D85942FD21E5DA21002A4CA8 /* JCommon.swift */,
+				D859430121E5E2F0002A4CA8 /* JDateExtension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D85942DE21E5D29B002A4CA8 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				D85942DF21E5D2D3002A4CA8 /* JColor.swift */,
+				D85942FB21E5D9BD002A4CA8 /* JFont.swift */,
+				D85942FF21E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		D859430321E5E30B002A4CA8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D859430421E5E33C002A4CA8 /* JProgressHUD.swift */,
+				D859430621E5E40C002A4CA8 /* SwiftProgressHUD.swift */,
+				D859430B21E5E503002A4CA8 /* JBarButtonItem_Extension.swift */,
+				D859430D21E5E556002A4CA8 /* JView_Extension.swift */,
+				D859430F21E5E648002A4CA8 /* JDecoder.swift */,
+				D859431121E5E6B1002A4CA8 /* JImageView+Kingfisher.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D859431321E5E743002A4CA8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D859431421E5E76C002A4CA8 /* JHomeAPI.swift */,
+				D859431621E5E81A002A4CA8 /* JNetWorking.swift */,
+				D859431821E5E8AF002A4CA8 /* JInterfaceUR.swift */,
+				D859431A21E5E8F0002A4CA8 /* JNetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D859431C21E5E976002A4CA8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D859435721E5F158002A4CA8 /* 发现 */,
+				D859435421E5F140002A4CA8 /* 鱼吧 */,
+				D859435121E5F123002A4CA8 /* 关注 */,
+				D859434E21E5F104002A4CA8 /* 娱乐 */,
+				D859434921E5F039002A4CA8 /* 个人中心 */,
+				D859434321E5EFC2002A4CA8 /* 首页 */,
+				D859431D21E5E988002A4CA8 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D859431D21E5E988002A4CA8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D859435A21E5F2A5002A4CA8 /* View */,
+				D859431E21E5E991002A4CA8 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D859431E21E5E991002A4CA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D859431F21E5E9B7002A4CA8 /* JTabBarController.swift */,
+				D859432121E5EBD7002A4CA8 /* JNavigationController.swift */,
+				D859432321E5ECB1002A4CA8 /* JBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D859432521E5ED0D002A4CA8 /* ZJCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D859432621E5ED0D002A4CA8 /* ZJCarouselView */,
+				D859432B21E5ED0D002A4CA8 /* ZJPageView */,
+				D859433021E5ED0D002A4CA8 /* ZJPopupView */,
+			);
+			path = ZJCustomView;
+			sourceTree = "<group>";
+		};
+		D859432621E5ED0D002A4CA8 /* ZJCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				D859432721E5ED0D002A4CA8 /* ZJCarouselView.swift */,
+				D859432821E5ED0D002A4CA8 /* ZJCarouselCell.swift */,
+				D859432921E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift */,
+				D859432A21E5ED0D002A4CA8 /* ZJImagePageControl.swift */,
+			);
+			path = ZJCarouselView;
+			sourceTree = "<group>";
+		};
+		D859432B21E5ED0D002A4CA8 /* ZJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				D859432C21E5ED0D002A4CA8 /* ZJPageTitleView.swift */,
+				D859432D21E5ED0D002A4CA8 /* ZJPageOptions.swift */,
+				D859432E21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift */,
+				D859432F21E5ED0D002A4CA8 /* ZJPageContentView.swift */,
+			);
+			path = ZJPageView;
+			sourceTree = "<group>";
+		};
+		D859433021E5ED0D002A4CA8 /* ZJPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				D859433121E5ED0D002A4CA8 /* ZJCustomView.swift */,
+				D859433221E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift */,
+				D859433321E5ED0D002A4CA8 /* ZJPopupBaseView.swift */,
+				D859433421E5ED0D002A4CA8 /* ZJPopupView.swift */,
+				D859433521E5ED0D002A4CA8 /* ZJAlertController.swift */,
+			);
+			path = ZJPopupView;
+			sourceTree = "<group>";
+		};
+		D859434321E5EFC2002A4CA8 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D859434621E5EFF3002A4CA8 /* View */,
+				D859434521E5EFEC002A4CA8 /* Model */,
+				D859434421E5EFDF002A4CA8 /* Controller */,
+				D859434C21E5F0EF002A4CA8 /* JHomeViewController.swift */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D859434421E5EFDF002A4CA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D859434521E5EFEC002A4CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D859434621E5EFF3002A4CA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D859434721E5F012002A4CA8 /* JHomeSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D859434921E5F039002A4CA8 /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				D859434A21E5F06D002A4CA8 /* JProfileViewController.swift */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		D859434E21E5F104002A4CA8 /* 娱乐 */ = {
+			isa = PBXGroup;
+			children = (
+				D859434F21E5F115002A4CA8 /* JRecreationViewController.swift */,
+			);
+			path = "娱乐";
+			sourceTree = "<group>";
+		};
+		D859435121E5F123002A4CA8 /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				D859435221E5F131002A4CA8 /* JFollowViewController.swift */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		D859435421E5F140002A4CA8 /* 鱼吧 */ = {
+			isa = PBXGroup;
+			children = (
+				D859435521E5F14F002A4CA8 /* JFishBarViewController.swift */,
+			);
+			path = "鱼吧";
+			sourceTree = "<group>";
+		};
+		D859435721E5F158002A4CA8 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				D859435821E5F164002A4CA8 /* JDiscoverViewController.swift */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		D859435A21E5F2A5002A4CA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D859435B21E5F2BE002A4CA8 /* JBaseCollectionCell.swift */,
+				D859435D21E5F449002A4CA8 /* JBaseTableCell.swift */,
+				D859435F21E5F6A0002A4CA8 /* JBaseView.swift */,
+				D859436121E5F734002A4CA8 /* JNavigationBar.swift */,
+				D859436321E5F820002A4CA8 /* JRefreshView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +395,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D85942DA21E5C4CA002A4CA8 /* Build configuration list for PBXNativeTarget "DouYU" */;
 			buildPhases = (
+				A9D72918A545ED916EFCCDDD /* [CP] Check Pods Manifest.lock */,
 				D85942C121E5C4C8002A4CA8 /* Sources */,
 				D85942C221E5C4C8002A4CA8 /* Frameworks */,
 				D85942C321E5C4C8002A4CA8 /* Resources */,
+				4B15DDFD4D74DC8CD9C9CC51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +422,7 @@
 				TargetAttributes = {
 					D85942C421E5C4C8002A4CA8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -109,6 +433,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = D85942BC21E5C4C8002A4CA8;
 			productRefGroup = D85942C621E5C4C8002A4CA8 /* Products */;
@@ -133,14 +459,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B15DDFD4D74DC8CD9C9CC51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DouYU/Pods-DouYU-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-SwiftyJSONMapper/Moya_SwiftyJSONMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SBCycleScrollView/SBCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_SwiftyJSONMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYU/Pods-DouYU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D72918A545ED916EFCCDDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DouYU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D85942C121E5C4C8002A4CA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D859431921E5E8AF002A4CA8 /* JInterfaceUR.swift in Sources */,
+				D859432021E5E9B7002A4CA8 /* JTabBarController.swift in Sources */,
+				D859430521E5E33C002A4CA8 /* JProgressHUD.swift in Sources */,
+				D85942E021E5D2D3002A4CA8 /* JColor.swift in Sources */,
+				D859433A21E5ED0D002A4CA8 /* ZJPageTitleView.swift in Sources */,
+				D859433921E5ED0D002A4CA8 /* ZJImagePageControl.swift in Sources */,
+				D859435E21E5F449002A4CA8 /* JBaseTableCell.swift in Sources */,
+				D859436421E5F820002A4CA8 /* JRefreshView.swift in Sources */,
+				D859436221E5F734002A4CA8 /* JNavigationBar.swift in Sources */,
+				D859430C21E5E503002A4CA8 /* JBarButtonItem_Extension.swift in Sources */,
+				D859433E21E5ED0D002A4CA8 /* ZJCustomView.swift in Sources */,
+				D859434221E5ED0D002A4CA8 /* ZJAlertController.swift in Sources */,
+				D859436021E5F6A0002A4CA8 /* JBaseView.swift in Sources */,
+				D859433C21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift in Sources */,
+				D859430021E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift in Sources */,
 				D85942D121E5C4C8002A4CA8 /* DouYU.xcdatamodeld in Sources */,
+				D859433F21E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift in Sources */,
+				D859433B21E5ED0D002A4CA8 /* ZJPageOptions.swift in Sources */,
+				D859435321E5F131002A4CA8 /* JFollowViewController.swift in Sources */,
+				D859431521E5E76C002A4CA8 /* JHomeAPI.swift in Sources */,
+				D859432221E5EBD7002A4CA8 /* JNavigationController.swift in Sources */,
+				D859431021E5E648002A4CA8 /* JDecoder.swift in Sources */,
+				D859435021E5F115002A4CA8 /* JRecreationViewController.swift in Sources */,
+				D859433621E5ED0D002A4CA8 /* ZJCarouselView.swift in Sources */,
+				D859434121E5ED0D002A4CA8 /* ZJPopupView.swift in Sources */,
+				D859430E21E5E556002A4CA8 /* JView_Extension.swift in Sources */,
 				D85942CB21E5C4C8002A4CA8 /* ViewController.swift in Sources */,
+				D859435C21E5F2BE002A4CA8 /* JBaseCollectionCell.swift in Sources */,
+				D859435621E5F14F002A4CA8 /* JFishBarViewController.swift in Sources */,
+				D859432421E5ECB1002A4CA8 /* JBaseViewController.swift in Sources */,
+				D859430221E5E2F0002A4CA8 /* JDateExtension.swift in Sources */,
+				D859431221E5E6B1002A4CA8 /* JImageView+Kingfisher.swift in Sources */,
+				D859433821E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift in Sources */,
+				D859434D21E5F0EF002A4CA8 /* JHomeViewController.swift in Sources */,
+				D859431B21E5E8F0002A4CA8 /* JNetworkProvider.swift in Sources */,
+				D859430721E5E40C002A4CA8 /* SwiftProgressHUD.swift in Sources */,
+				D85942FC21E5D9BD002A4CA8 /* JFont.swift in Sources */,
 				D85942C921E5C4C8002A4CA8 /* AppDelegate.swift in Sources */,
+				D859434B21E5F06D002A4CA8 /* JProfileViewController.swift in Sources */,
+				D859433D21E5ED0D002A4CA8 /* ZJPageContentView.swift in Sources */,
+				D859434821E5F012002A4CA8 /* JHomeSearchView.swift in Sources */,
+				D859431721E5E81A002A4CA8 /* JNetWorking.swift in Sources */,
+				D85942FE21E5DA21002A4CA8 /* JCommon.swift in Sources */,
+				D859435921E5F164002A4CA8 /* JDiscoverViewController.swift in Sources */,
+				D859434021E5ED0D002A4CA8 /* ZJPopupBaseView.swift in Sources */,
+				D859433721E5ED0D002A4CA8 /* ZJCarouselCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,17 +718,22 @@
 		};
 		D85942DB21E5C4CA002A4CA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E44473FD5BB57CBD950C96 /* Pods-DouYU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54K5TNT8QK;
 				INFOPLIST_FILE = DouYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JARVIS.DouYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,17 +741,21 @@
 		};
 		D85942DC21E5C4CA002A4CA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F95257F931579E05F59ED3 /* Pods-DouYU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54K5TNT8QK;
 				INFOPLIST_FILE = DouYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JARVIS.DouYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
