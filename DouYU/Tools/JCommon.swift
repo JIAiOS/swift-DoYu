@@ -43,7 +43,7 @@ let KheightRatio = KscreenHeight / 667.0
 
 //自适应
 func Adapt(_ value : CGFloat) -> CGFloat {
-    return Adapt(value)
+    return AdaptW(value)
 }
 
 //自适应宽度

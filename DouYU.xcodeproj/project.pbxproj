@@ -57,6 +57,13 @@
 		D859436021E5F6A0002A4CA8 /* JBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859435F21E5F6A0002A4CA8 /* JBaseView.swift */; };
 		D859436221E5F734002A4CA8 /* JNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859436121E5F734002A4CA8 /* JNavigationBar.swift */; };
 		D859436421E5F820002A4CA8 /* JRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859436321E5F820002A4CA8 /* JRefreshView.swift */; };
+		D8FEF25521E6DFEE00848AF7 /* JRecommendedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25421E6DFEE00848AF7 /* JRecommendedController.swift */; };
+		D8FEF25721E6E0E500848AF7 /* JAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25621E6E0E500848AF7 /* JAllController.swift */; };
+		D8FEF25921E6E10E00848AF7 /* JLOLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25821E6E10E00848AF7 /* JLOLController.swift */; };
+		D8FEF25B21E6E13300848AF7 /* JJDQSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25A21E6E13300848AF7 /* JJDQSController.swift */; };
+		D8FEF25D21E6E15600848AF7 /* JWZRYController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25C21E6E15600848AF7 /* JWZRYController.swift */; };
+		D8FEF25F21E6E17200848AF7 /* JQQFCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF25E21E6E17200848AF7 /* JQQFCController.swift */; };
+		D8FEF26121E6E93600848AF7 /* JClassificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FEF26021E6E93600848AF7 /* JClassificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +120,13 @@
 		D859435F21E5F6A0002A4CA8 /* JBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseView.swift; sourceTree = "<group>"; };
 		D859436121E5F734002A4CA8 /* JNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNavigationBar.swift; sourceTree = "<group>"; };
 		D859436321E5F820002A4CA8 /* JRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRefreshView.swift; sourceTree = "<group>"; };
+		D8FEF25421E6DFEE00848AF7 /* JRecommendedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRecommendedController.swift; sourceTree = "<group>"; };
+		D8FEF25621E6E0E500848AF7 /* JAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAllController.swift; sourceTree = "<group>"; };
+		D8FEF25821E6E10E00848AF7 /* JLOLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLOLController.swift; sourceTree = "<group>"; };
+		D8FEF25A21E6E13300848AF7 /* JJDQSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDQSController.swift; sourceTree = "<group>"; };
+		D8FEF25C21E6E15600848AF7 /* JWZRYController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWZRYController.swift; sourceTree = "<group>"; };
+		D8FEF25E21E6E17200848AF7 /* JQQFCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQQFCController.swift; sourceTree = "<group>"; };
+		D8FEF26021E6E93600848AF7 /* JClassificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JClassificationController.swift; sourceTree = "<group>"; };
 		FC4616E005D9340938429B41 /* Pods_DouYU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -234,7 +248,7 @@
 				D859435121E5F123002A4CA8 /* 关注 */,
 				D859434E21E5F104002A4CA8 /* 娱乐 */,
 				D859434921E5F039002A4CA8 /* 个人中心 */,
-				D859434321E5EFC2002A4CA8 /* 首页 */,
+				D859434321E5EFC2002A4CA8 /* 推荐 */,
 				D859431D21E5E988002A4CA8 /* Main */,
 			);
 			path = Classes;
@@ -303,20 +317,27 @@
 			path = ZJPopupView;
 			sourceTree = "<group>";
 		};
-		D859434321E5EFC2002A4CA8 /* 首页 */ = {
+		D859434321E5EFC2002A4CA8 /* 推荐 */ = {
 			isa = PBXGroup;
 			children = (
+				D859434C21E5F0EF002A4CA8 /* JHomeViewController.swift */,
 				D859434621E5EFF3002A4CA8 /* View */,
 				D859434521E5EFEC002A4CA8 /* Model */,
 				D859434421E5EFDF002A4CA8 /* Controller */,
-				D859434C21E5F0EF002A4CA8 /* JHomeViewController.swift */,
 			);
-			path = "首页";
+			path = "推荐";
 			sourceTree = "<group>";
 		};
 		D859434421E5EFDF002A4CA8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D8FEF26021E6E93600848AF7 /* JClassificationController.swift */,
+				D8FEF25421E6DFEE00848AF7 /* JRecommendedController.swift */,
+				D8FEF25621E6E0E500848AF7 /* JAllController.swift */,
+				D8FEF25821E6E10E00848AF7 /* JLOLController.swift */,
+				D8FEF25A21E6E13300848AF7 /* JJDQSController.swift */,
+				D8FEF25C21E6E15600848AF7 /* JWZRYController.swift */,
+				D8FEF25E21E6E17200848AF7 /* JQQFCController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -534,34 +555,41 @@
 				D859430521E5E33C002A4CA8 /* JProgressHUD.swift in Sources */,
 				D85942E021E5D2D3002A4CA8 /* JColor.swift in Sources */,
 				D859433A21E5ED0D002A4CA8 /* ZJPageTitleView.swift in Sources */,
+				D8FEF25B21E6E13300848AF7 /* JJDQSController.swift in Sources */,
 				D859433921E5ED0D002A4CA8 /* ZJImagePageControl.swift in Sources */,
 				D859435E21E5F449002A4CA8 /* JBaseTableCell.swift in Sources */,
 				D859436421E5F820002A4CA8 /* JRefreshView.swift in Sources */,
+				D8FEF25521E6DFEE00848AF7 /* JRecommendedController.swift in Sources */,
 				D859436221E5F734002A4CA8 /* JNavigationBar.swift in Sources */,
 				D859430C21E5E503002A4CA8 /* JBarButtonItem_Extension.swift in Sources */,
 				D859433E21E5ED0D002A4CA8 /* ZJCustomView.swift in Sources */,
 				D859434221E5ED0D002A4CA8 /* ZJAlertController.swift in Sources */,
 				D859436021E5F6A0002A4CA8 /* JBaseView.swift in Sources */,
 				D859433C21E5ED0D002A4CA8 /* ZJBasePageControlCell.swift in Sources */,
+				D8FEF25F21E6E17200848AF7 /* JQQFCController.swift in Sources */,
 				D859430021E5E2BE002A4CA8 /* JNotiRefreshHomeNavBar.swift in Sources */,
 				D85942D121E5C4C8002A4CA8 /* DouYU.xcdatamodeld in Sources */,
 				D859433F21E5ED0D002A4CA8 /* ZJPopupViewDelegate.swift in Sources */,
 				D859433B21E5ED0D002A4CA8 /* ZJPageOptions.swift in Sources */,
 				D859435321E5F131002A4CA8 /* JFollowViewController.swift in Sources */,
 				D859431521E5E76C002A4CA8 /* JHomeAPI.swift in Sources */,
+				D8FEF25921E6E10E00848AF7 /* JLOLController.swift in Sources */,
 				D859432221E5EBD7002A4CA8 /* JNavigationController.swift in Sources */,
 				D859431021E5E648002A4CA8 /* JDecoder.swift in Sources */,
 				D859435021E5F115002A4CA8 /* JRecreationViewController.swift in Sources */,
+				D8FEF26121E6E93600848AF7 /* JClassificationController.swift in Sources */,
 				D859433621E5ED0D002A4CA8 /* ZJCarouselView.swift in Sources */,
 				D859434121E5ED0D002A4CA8 /* ZJPopupView.swift in Sources */,
 				D859430E21E5E556002A4CA8 /* JView_Extension.swift in Sources */,
 				D85942CB21E5C4C8002A4CA8 /* ViewController.swift in Sources */,
 				D859435C21E5F2BE002A4CA8 /* JBaseCollectionCell.swift in Sources */,
 				D859435621E5F14F002A4CA8 /* JFishBarViewController.swift in Sources */,
+				D8FEF25721E6E0E500848AF7 /* JAllController.swift in Sources */,
 				D859432421E5ECB1002A4CA8 /* JBaseViewController.swift in Sources */,
 				D859430221E5E2F0002A4CA8 /* JDateExtension.swift in Sources */,
 				D859431221E5E6B1002A4CA8 /* JImageView+Kingfisher.swift in Sources */,
 				D859433821E5ED0D002A4CA8 /* ZJBaseCarouselCell.swift in Sources */,
+				D8FEF25D21E6E15600848AF7 /* JWZRYController.swift in Sources */,
 				D859434D21E5F0EF002A4CA8 /* JHomeViewController.swift in Sources */,
 				D859431B21E5E8F0002A4CA8 /* JNetworkProvider.swift in Sources */,
 				D859430721E5E40C002A4CA8 /* SwiftProgressHUD.swift in Sources */,
